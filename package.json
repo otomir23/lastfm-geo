@@ -1,0 +1,25 @@
+{
+    "name": "lastfm-geo",
+    "type": "module",
+    "version": "0.0.1",
+    "packageManager": "pnpm@9.2.0",
+    "license": "MIT",
+    "scripts": {
+        "lint": "eslint .",
+        "lint:fix": "eslint --fix .",
+        "format": "prettier --write \"src/**/*.ts\"",
+        "start": "dotenv tsx ./src/main.ts",
+        "build": "tsc"
+    },
+    "dependencies": {
+        "@mtcute/crypto-node": "^0.16.0",
+        "@mtcute/node": "^0.16.0",
+        "dotenv-cli": "^7.4.2"
+    },
+    "devDependencies": {
+        "@antfu/eslint-config": "^2.23.2",
+        "@types/node": "^20.14.11",
+        "tsx": "^4.16.2",
+        "typescript": "^5.5.3"
+    }
+}

@@ -1,6 +1,6 @@
 import { TelegramClient } from '@mtcute/node'
 
-import * as env from './env.js'
+import { env } from './env.js'
 
 const tg = new TelegramClient({
     apiId: env.API_ID,

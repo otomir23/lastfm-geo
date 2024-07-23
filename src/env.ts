@@ -7,6 +7,8 @@ export const env = createEnv({
     server: {
         API_ID: z.number().int(),
         API_HASH: z.string(),
+        LASTFM_KEY: z.string(),
+        LASTFM_USERNAME: z.string(),
     },
     runtimeEnv: process.env,
     emptyStringAsUndefined: true,

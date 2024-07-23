@@ -9,6 +9,7 @@ const tg = new TelegramClient({
     apiId: env.API_ID,
     apiHash: env.API_HASH,
     storage: 'bot-data/session',
+    updates: false,
 })
 
 async function getCurrentSongName() {

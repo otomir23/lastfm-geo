@@ -1,6 +1,9 @@
 # lastfm-geo
 
-mtcute powered Telegram bot
+mtcute powered Telegram user-bot that updates your business location* to
+match your now playing status on Last.fm.
+
+> Note: *Telegram Premium required.
 
 ## Development
 

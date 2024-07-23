@@ -9,6 +9,8 @@ export const env = createEnv({
         API_HASH: z.string(),
         LASTFM_KEY: z.string(),
         LASTFM_USERNAME: z.string(),
+        UPDATE_INTERVAL_SECONDS: z.number().int().default(10),
+        FALLBACK_MESSAGE: z.string().default('Nothing playing!'),
     },
     runtimeEnv: process.env,
     emptyStringAsUndefined: true,

@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@mtcute/crypto-node':
-        specifier: ^0.16.0
-        version: 0.16.0
+        specifier: ^0.16.2
+        version: 0.16.2
       '@mtcute/node':
-        specifier: ^0.16.0
-        version: 0.16.0
+        specifier: ^0.16.2
+        version: 0.16.2
       '@solely/simple-fm':
         specifier: ^1.7.2
         version: 1.7.2
@@ -317,8 +317,8 @@ packages:
   '@mtcute/core@0.16.1':
     resolution: {integrity: sha512-xR8z2g2PxoJfgwczaYrz38u61n3uzW6iiUIkbqRsYcIVqo5MeKi6KjInLcFW2SW6ai315HEXARGImWPQxeLv8w==}
 
-  '@mtcute/crypto-node@0.16.0':
-    resolution: {integrity: sha512-VB4bPiakU3sGkjmas2iToScdCK4nL+mmOh5d9lIWXyu/GCVsno3wzxZ2yGGUQ3alX5wrI+YvUwGpafgQG20nRg==}
+  '@mtcute/crypto-node@0.16.2':
+    resolution: {integrity: sha512-60qCfZYASJ81HHhCahxXRXXEWjdc+RGtIOtE8U3p5BwhyCvXfcogY8v/eZcD//O9K1+hNVebl+PrpGu/OP6PwA==}
 
   '@mtcute/file-id@0.16.0':
     resolution: {integrity: sha512-hScNnSF25c9yAJ2BeIO6iI+lgcguII4VsRpR3+ZLENrQ7jqY3WhoUuZ3wcwgqCqHNq02CI5oC3jBblPHdLd0xw==}
@@ -329,8 +329,8 @@ packages:
   '@mtcute/markdown-parser@0.16.0':
     resolution: {integrity: sha512-Xn3QEeLKAgpmqYrDb6vmfY8MdRIYjCD3WZaYLlzBtB+nho3h12gN1NIg0Ggv5/eOz+rBquP+tDgAFZ4hoxadCg==}
 
-  '@mtcute/node@0.16.0':
-    resolution: {integrity: sha512-mx57dsYEUM5y5tB4ynNOpriuEfhREiAYbIW+lwvKvG28xla8PAvVO8VXghU4VVD4PU+Vl6JMKTN1nMdt1bZNYA==}
+  '@mtcute/node@0.16.2':
+    resolution: {integrity: sha512-Q0ot9K5lB4nbzDuQIzk3VMl+FttTfX+o5fL3r8XPYkzw7bKg/D1q7JFM0tv7nFTaNKe8JiUjcrz6QvyYlQ78dw==}
 
   '@mtcute/tl-runtime@0.16.0':
     resolution: {integrity: sha512-9HSYbP+ANL6pQmpST4rr+qHg2po2zzhJA/V2+/OLdMlssQRYk5P7xvL7iskwBc0Z5gCVkrIZ57NWTOLNicKLnw==}
@@ -2016,9 +2016,9 @@ snapshots:
       events: 3.2.0
       long: 5.2.3
 
-  '@mtcute/crypto-node@0.16.0':
+  '@mtcute/crypto-node@0.16.2':
     dependencies:
-      '@mtcute/node': 0.16.0
+      '@mtcute/node': 0.16.2
       node-gyp-build: 4.8.1
 
   '@mtcute/file-id@0.16.0':
@@ -2037,7 +2037,7 @@ snapshots:
       '@mtcute/core': 0.16.1
       long: 5.2.3
 
-  '@mtcute/node@0.16.0':
+  '@mtcute/node@0.16.2':
     dependencies:
       '@mtcute/core': 0.16.1
       '@mtcute/html-parser': 0.16.0

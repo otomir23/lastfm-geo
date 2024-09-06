@@ -5,6 +5,8 @@ match your now playing status on Last.fm.
 
 > Note: *Telegram Premium required.
 
+First obtain an app id and hash [here](https://my.telegram.org), then last.fm api key [here](https://last.fm/api/account/create)
+
 ## Development
 
 ```bash

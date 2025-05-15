@@ -10,6 +10,7 @@ export const env = createEnv({
         LASTFM_KEY: z.string(),
         LASTFM_USERNAME: z.string(),
         UPDATE_INTERVAL_SECONDS: z.coerce.number().int().default(10),
+        ONLINE_INTERVAL_SECONDS: z.coerce.number().int().default(60 * 60 * 24),
         FALLBACK_MESSAGE: z.string().default('Nothing playing!'),
     },
     runtimeEnv: process.env,
